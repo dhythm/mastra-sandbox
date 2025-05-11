@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "mastra dev",
-    "build": "mastra build"
+    "build": "mastra build",
+    "start": "npx tsx src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.15.17",
+    "dotenv": "^16.5.0",
     "mastra": "^0.6.2",
     "typescript": "^5.8.3"
   },

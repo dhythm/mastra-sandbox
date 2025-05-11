@@ -89,3 +89,25 @@ touch src/mastra/agents/weather.ts
 ```
 
 ### Register Agent
+
+## Start the Mastra Server
+
+### Run server
+
+```sh
+npm run dev
+```
+
+### Call the endpoint
+
+```sh
+curl -X POST http://localhost:4111/api/agents/weatherAgent/generate \
+-H "Content-Type: application/json" \
+-d '{"messages": ["What is the weather in London?"]}'
+```
+
+## Run from the command line
+
+```sh
+npx tsx src/index.ts
+```
