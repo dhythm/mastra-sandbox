@@ -74,3 +74,18 @@ npx create-mastra@latest
     npm run dev
 ```
 
+## Development
+
+### Create a Tool
+
+```sh
+mkdir -p src/mastra/tools/ && touch src/mastra/tools/weather-tool.ts
+```
+
+### Create an Agent
+
+```sh
+touch src/mastra/agents/weather.ts
+```
+
+### Register Agent
