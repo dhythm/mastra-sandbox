@@ -145,3 +145,11 @@ curl -X POST http://localhost:4111/api/agents/mathSolverAgent/generate \
     ]
   }'
 ```
+
+## Agent Memory
+
+```sh
+npm install @mastra/memory@latest
+```
+
+## Agent Tool Selection
