@@ -111,3 +111,25 @@ curl -X POST http://localhost:4111/api/agents/weatherAgent/generate \
 ```sh
 npx tsx src/index.ts
 ```
+
+## Integrate Mastra in Next.js project \[WIP\]
+
+### Separate Backend Integration
+
+1. Install MastraClient:
+
+```sh
+npm install @mastra/client-js@latest
+```
+
+2. Use MastraClient:
+
+```sh
+mkdir lib && touch lib/mastra.ts
+```
+
+3. Use mastraClient in a React component:
+
+```sh
+mkdir -p app/components && touch app/components/SimpleWeather.tsx
+```
