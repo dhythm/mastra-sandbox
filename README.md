@@ -133,3 +133,15 @@ mkdir lib && touch lib/mastra.ts
 ```sh
 mkdir -p app/components && touch app/components/SimpleWeather.tsx
 ```
+
+## Creating and Calling Agents
+
+```sh
+curl -X POST http://localhost:4111/api/agents/mathSolverAgent/generate \
+  -H "Content-Type: application/json" \
+  -d '{
+    "messages": [
+      { "role": "user", "content": "If a taxi driver earns $9461 per hour and works 12 hours a day, how much does they earn in one day?" }
+    ]
+  }'
+```
